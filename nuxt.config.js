@@ -1,7 +1,6 @@
 import routes from "./routes";
 
 export default {
-  plugins: ["~/plugins/payload-injection.js"],
   generate: {
     routes
   },
