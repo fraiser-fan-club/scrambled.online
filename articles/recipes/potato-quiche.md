@@ -20,4 +20,3 @@
 ## Steps
 1. Preheat oven to 425° F. Cook bacon in cast-iron skillet and set aside. Remove skillet from heat.
 2. Put potatoes in mixing bowl. Mix in smoked paprika, cayenne powder, chili powder, garlic powder, onion powder, and salt. Add 1 tbsp of the oil from the bacon to the bowl. Toss all but 1/4 tsp of oil from the skillet. Adjust spices as necessary.
-3. 
