@@ -1,7 +1,5 @@
 # Mashed Potatoes
 
-![](Mashed%20Potatoes/IMG_4007.JPG)
-
 ## Ingredients
 * potatoes
 * butter

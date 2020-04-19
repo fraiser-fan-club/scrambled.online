@@ -1,16 +1,12 @@
 import globby from "globby";
-import path from "path";
 
 export default async function() {
   const config = {
-    onlyFiles: true,
-    deep: 2
+    deep: 2,
+    onlyFiles: false
   };
-  return globby("articles/**/*.md", config).then(articles => {
-    return articles.map(article => {
-      const category = article.split(path.sep)[1];
-      const name = path.basename(article, ".md");
-      return `/${category}/${name}`;
-    });
+  const routePattern = /^.*?(?=\/)(?<route>.*?)(?:\.md)?$/;
+  return globby("articles/**", config).then(files => {
+    return files.map(file => file.match(routePattern).groups.route);
   });
 }
